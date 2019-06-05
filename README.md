@@ -1,7 +1,7 @@
 # Replication guide
 To replicate the results you need the following software installed on your machine:
 
-- Weka
+- Weka (also install SMOTE using the Weka's package manager)
 - Ruby
 
 As a first step, you need to run `ruby build-model.rb` in the current folder. This will create a new file named `actual_model.kf`, which is the KnowledgeFlow model that can be imported in Weka. 
